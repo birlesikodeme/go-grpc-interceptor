@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/golang/glog"
+	"github.com/mosteknoloji/glog"
 	"golang.org/x/net/context"
 )
 
