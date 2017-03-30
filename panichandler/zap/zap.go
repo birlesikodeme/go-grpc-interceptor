@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/mercari/go-grpc-interceptor/zap/zapctx"
+	"github.com/mosteknoloji/go-grpc-interceptor/zap/zapctx"
 	"github.com/uber-go/zap"
 	"golang.org/x/net/context"
 )
