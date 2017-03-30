@@ -20,7 +20,7 @@ func UnaryLogHandler(ctx context.Context, req interface{}, info *grpc.UnaryServe
 	latency := end.Sub(start)
 
 	if err != nil {
-		log.Infof("[ERR] %s took: %s err: %s.%s", info.FullMethod, err)
+		log.Infof("[ERR] %s took: %s err: %s", info.FullMethod, latency, err)
 	} else {
 		log.Infof("[INF] %s took: %s", info.FullMethod, latency)
 
