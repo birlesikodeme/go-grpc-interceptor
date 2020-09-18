@@ -3,7 +3,7 @@ package glog
 import (
 	"time"
 
-	log "github.com/mosteknoloji/glog"
+	log "github.com/birlesikodeme/glog"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )

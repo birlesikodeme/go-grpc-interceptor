@@ -4,9 +4,9 @@ go 1.14
 
 require (
 	github.com/BurntSushi/toml v0.3.1 // indirect
+	github.com/birlesikodeme/glog v1.0.0-beta
 	github.com/golang/protobuf v1.4.2
 	github.com/google/uuid v1.1.2 // indirect
-	github.com/mosteknoloji/glog v0.0.0-20170612104730-d3ad4abecab5
 	github.com/nicksnyder/go-i18n v1.10.1
 	github.com/prometheus/client_golang v1.7.1
 	github.com/renstrom/shortuuid v3.0.0+incompatible
