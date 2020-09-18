@@ -4,7 +4,7 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/mosteknoloji/go-grpc-interceptor/panichandler"
+	"github.com/birlesikodeme/go-grpc-interceptor/panichandler"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
